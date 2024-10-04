@@ -21,18 +21,8 @@ Install dependencies: Ensure you have Python 3.x installed, and install the requ
 # Usage
 This project allows you to input two arrays of points. You can choose the distance metric you want to use, and for each point in the first array, it will find the closest point from the second array.
 
-# Applications
-Data Science: This tool can be used to find the closest data points or for nearest-neighbor search in clustering or classification tasks.
-Machine Learning: Useful in K-Nearest Neighbors (KNN) algorithms, where proximity between points affects classification or regression.
-Geospatial Analysis: Helps in measuring distances between coordinates in multi-dimensional space.
-Recommendation Systems: Can be used to calculate the similarity between user profiles or items based on their features.
-
 # Error Handling
 The system checks for the validity of the selected norm. If an unsupported norm is passed, an appropriate error is raised, ensuring that only valid norms (Manhattan, Euclidean, or Cosine) are used.
-
-# License
-This project is licensed under the MIT License, making it free to use, modify, and distribute. Please see the LICENSE file for more details.
-The output is a set of pairs, where each pair consists of a point from the first array and its nearest neighbor from the second array.
 
 # Customization
 Distance Metric: You can customize the distance calculation by selecting from Manhattan (L1), Euclidean (L2), or Cosine distance. This is done by setting the norm parameter to either 1, 2, or 'co' respectively.
